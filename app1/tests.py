@@ -2,6 +2,7 @@ from django.test import TestCase
 
 # Create your tests here.
 from .models import Todo
+from django.contrib.auth.models import User
 
 
 class TodoModelTest(TestCase):
